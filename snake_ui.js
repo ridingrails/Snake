@@ -15,7 +15,7 @@
     39: "E"
   };
 
-  View.STEPS = 1000;
+  View.STEPS = 700;
 
   View.prototype.handleKeyEvent = function (event) {
     if (_(View.validKeyCodes).has(event.keyCode)) {
