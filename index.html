@@ -12,12 +12,25 @@
   </head>
 
   <body>
-    <div class="header_div"><h2>Snake Game</h2></div>
-		<button class="refresh btn btn-primary">Play Again</button>
-    <div id="grid">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-8 col-xs-offset-1">
+		    	<div class="header_div"><h2>Snake Game</h2></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-8 col-xs-offset-1">
+					<button class="refresh btn btn-primary">Play Again</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-8 col-xs-offset-1">
+			    <div id="grid">
 
-    </div>
-
+			    </div>
+				</div>
+			</div>
+		</div>
     <script>
       $(function () { new SnakeGame.View($("#grid")).start(); });
     </script>
